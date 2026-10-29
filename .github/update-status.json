@@ -1,0 +1,10 @@
+{
+  "run_utc": "2026-10-28 09:48",
+  "ok": true,
+  "new_1m_candles": 2880,
+  "data_through": {
+    "BTCUSDT": "2026-10-27 23:59",
+    "ETHUSDT": "2026-10-27 23:59"
+  },
+  "error": null
+}

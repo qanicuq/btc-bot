@@ -1,0 +1,21 @@
+# Raw Binance downloads (kept on the PC only; duplicated by clean/)
+BTCUSDT-1m/
+ETHUSDT-1m/
+/BTCUSDT_1h.csv
+/ETHUSDT_1h.csv
+/get_binance_data.py
+
+# Secrets - never commit
+.env
+*.env
+*secret*
+*key*.json
+
+# Python / OS junk
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Paper bot scratch
+paperbot/run/

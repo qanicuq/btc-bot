@@ -1,0 +1,61 @@
+name: Crypto paper bot (daily check, weekly trend trades)
+
+on:
+  schedule:
+    - cron: "11 0 * * *"       # 00:11 UTC daily, just after the daily candle closes (8:11pm New York)
+  workflow_dispatch: {}         # "Run workflow" button on the Actions tab
+  push:
+    branches: [main]
+    paths: ["paperbot/control.json", "paperbot/*.py", ".github/workflows/paperbot.yml"]
+    # editing control.json (kill switch) takes effect right away
+
+permissions:
+  contents: write
+
+concurrency:
+  group: paperbot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # only the bot folder: skips the ~900 MB of price history in this repo
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            paperbot
+            .github
+          filter: blob:none
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Daily paper run (no Claude)
+        run: python -m paperbot.run_daily
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+      - name: Commit ledger and dashboard
+        if: success()
+        run: |
+          git config user.name "paper bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add paperbot/state.json paperbot/out paperbot/DASHBOARD.md
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Paper day $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do
+            git pull --rebase --depth=1 origin main && git push && exit 0
+            sleep 5
+          done
+          exit 1
+
+      - name: Phone alert if this run failed
+        if: failure()
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          curl -s -H "Title: btc-bot: Crypto paper bot (daily check, weekly trend trades) FAILED" -H "Priority: high" -H "Tags: x" \
+            -H "Click: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            -d "Tap to open the failed run on GitHub." \
+            "https://ntfy.sh/${NTFY_TOPIC}" || true

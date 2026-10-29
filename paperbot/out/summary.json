@@ -1,0 +1,35 @@
+{
+ "day": "2026-10-27",
+ "equity": 980.23,
+ "drawdown": -0.022,
+ "prices": {
+  "BTCUSD": 80800.9,
+  "ETHUSD": 2347.34
+ },
+ "targets": {
+  "BTCUSD": 0.4,
+  "ETHUSD": 0.4
+ },
+ "votes": {
+  "BTCUSD": {
+   "above_100d_avg": true,
+   "above_150d_avg": true,
+   "above_200d_avg": true,
+   "above_250d_avg": true,
+   "up_over_12_months": false
+  },
+  "ETHUSD": {
+   "above_100d_avg": true,
+   "above_150d_avg": true,
+   "above_200d_avg": true,
+   "above_250d_avg": true,
+   "up_over_12_months": false
+  }
+ },
+ "stopped": {
+  "on": false,
+  "reason": "",
+  "at": null
+ },
+ "source": "Kraken"
+}

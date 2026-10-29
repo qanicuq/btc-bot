@@ -1,0 +1,521 @@
+{
+  "hour": "2026-06-15T15",
+  "run_utc": "2026-10-16T11:49:19+00:00",
+  "errors": [],
+  "download": {
+    "url": "https://r2v2.pmxt.dev/polymarket_orderbook_2026-06-15T15.parquet",
+    "mb": 281.7,
+    "seconds": 4.1
+  },
+  "markets_found": 12,
+  "markets": [
+    {
+      "slug": "btc-updown-5m-1781535600",
+      "condition_id": "0x352c9162882bd9afd381d01be4ff24acde2bad6bd4879325c42438357144724e",
+      "tokens": [
+        "114504137425281983232561184776257846585636611122612016320244942371187718498719",
+        "68945027578311319104713148969972829367313872804122557993179103129930316286447"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1781535900",
+      "condition_id": "0x94b290dea634849b62f994b03ec9177c03fd690e131f91f35a51be55eab9b668",
+      "tokens": [
+        "98120159074511969387697017338002268436363915250698356033192871982236945279450",
+        "46210402947286841159705059121724116136863892627749017308168354794130971553796"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1781536200",
+      "condition_id": "0xf617cb3125364eca11d84086c9edeb13d5ead61c0e810dcbd274ba269dbd478e",
+      "tokens": [
+        "48039751794095167473742558577789231334374302999963425477528978119616958099758",
+        "62424396679172053537059832428081806993907121828688224070454906859496280843761"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "0",
+        "1"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1781536500",
+      "condition_id": "0xa1ee75a1a4843d2b23429bd366105482cf7f6041f7b5a29ec70b6b5438fc129a",
+      "tokens": [
+        "82278758637691513211957373017283005293348841184405025181634459508586597045202",
+        "94869455979270185898716201631107407133520774052984143773376787727127695060991"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1781536800",
+      "condition_id": "0x1470f97ae1a37c51a88162e8f9e10d025a263d4622be583fd64c82915bf562ff",
+      "tokens": [
+        "4092575790302537148202871218190898737624162872414824571012989952731922615039",
+        "91484580360298178480975835305329240069050269154174770808191596139984876788286"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "0",
+        "1"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1781537100",
+      "condition_id": "0x11f2b7adf9e9012a949931ad86eef14d5c0b377d3c39673ccea9545e82b39135",
+      "tokens": [
+        "76200780032529682264552462501700682565836838276465540401792197988165833087941",
+        "13160341522779313981868835764654044043187088063534074422661893011343953839036"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "0",
+        "1"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1781537400",
+      "condition_id": "0xf060a636fb15e08730dd9dda106b40a8d9bc1748b8ac96eeae1a18675e0efa71",
+      "tokens": [
+        "105379700420168537021681198611571475908253163256914281938348865286149367090700",
+        "17791901925999693029499629867657714853052310378020523429867654634604728991148"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "0",
+        "1"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1781537700",
+      "condition_id": "0xf4fdd198043b4853768739f3d767eb1f27ed5c3eef99a383084083934ff0b957",
+      "tokens": [
+        "11210551313362551250111824992473143080866546565325379286753469037646820642750",
+        "28354426453770618613788407971870162115722018845077903313356571713459372939300"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1781538000",
+      "condition_id": "0xe2115df006fdf8e7dd11e352776bb50c0c1cec9eebbb0095b0dbe355407f843f",
+      "tokens": [
+        "56947580883006902761025816621174148539953549222558622953061335248525010869457",
+        "88401465934196404070837715821515751153416042339923460858775937343246151136565"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1781538300",
+      "condition_id": "0x8a9a49ec9d8fff168d140e7ce8b70c6ab0b0b7ee6f67a6e12a1db8c436b95ccc",
+      "tokens": [
+        "63027610415471702293315535584646073351202389263855454087470195122906226596262",
+        "12754801544930292114612672952875171423456964091036759202670338436445853880068"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1781538600",
+      "condition_id": "0xe96e65d6ec439922706d18b29d3fe1754a08e61842718833da11815271304711",
+      "tokens": [
+        "4147909164866257173837261425303191229885218019524640826667941103365407735205",
+        "64854512251942574119320563909340704440017253260338679178252440428454828171426"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1781538900",
+      "condition_id": "0x8f7d0d4333897011da4966cf63a9ee0af01876ee3a4fa158696733eec33a5d05",
+      "tokens": [
+        "65681335906928107187207037750884635402164629534275110140669169677332711129146",
+        "104829393516287253040526656026395751831405038443567989391858928919990710829948"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    }
+  ],
+  "schema": [
+    "timestamp_received: timestamp[ms, tz=UTC]",
+    "timestamp: timestamp[ms, tz=UTC]",
+    "market: fixed_size_binary[66]",
+    "event_type: string",
+    "asset_id: string",
+    "bids: string",
+    "asks: string",
+    "price: decimal128(9, 4)",
+    "size: decimal128(18, 6)",
+    "side: string",
+    "best_bid: decimal128(9, 4)",
+    "best_ask: decimal128(9, 4)",
+    "fee_rate_bps: uint16",
+    "transaction_hash: string",
+    "old_tick_size: decimal128(9, 4)",
+    "new_tick_size: decimal128(9, 4)"
+  ],
+  "rows_total": 46539482,
+  "rows_matched": 0,
+  "columns": [
+    "timestamp_received",
+    "timestamp",
+    "market",
+    "event_type",
+    "asset_id",
+    "bids",
+    "asks",
+    "price",
+    "size",
+    "side",
+    "best_bid",
+    "best_ask",
+    "fee_rate_bps",
+    "transaction_hash",
+    "old_tick_size",
+    "new_tick_size"
+  ],
+  "event_type_counts": {},
+  "sample_rows": [],
+  "per_token_price_le_2c": [
+    {
+      "slug": "btc-updown-5m-1781535600",
+      "outcome": "Up",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781535600",
+      "outcome": "Down",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781535900",
+      "outcome": "Up",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781535900",
+      "outcome": "Down",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781536200",
+      "outcome": "Up",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781536200",
+      "outcome": "Down",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781536500",
+      "outcome": "Up",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781536500",
+      "outcome": "Down",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781536800",
+      "outcome": "Up",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781536800",
+      "outcome": "Down",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781537100",
+      "outcome": "Up",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781537100",
+      "outcome": "Down",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781537400",
+      "outcome": "Up",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781537400",
+      "outcome": "Down",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781537700",
+      "outcome": "Up",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781537700",
+      "outcome": "Down",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781538000",
+      "outcome": "Up",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781538000",
+      "outcome": "Down",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781538300",
+      "outcome": "Up",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781538300",
+      "outcome": "Down",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781538600",
+      "outcome": "Up",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781538600",
+      "outcome": "Down",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781538900",
+      "outcome": "Up",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    },
+    {
+      "slug": "btc-updown-5m-1781538900",
+      "outcome": "Down",
+      "events_with_price": 0,
+      "min_price": null,
+      "events_price_le_2c": 0,
+      "size_at_le_2c": null,
+      "sides_le_2c": {}
+    }
+  ],
+  "diag": {
+    "columns_read": [
+      "timestamp_received",
+      "timestamp",
+      "market",
+      "event_type",
+      "asset_id",
+      "bids",
+      "asks",
+      "price",
+      "size",
+      "side",
+      "best_bid",
+      "best_ask",
+      "fee_rate_bps"
+    ],
+    "file_rows": 46539482,
+    "file_event_types": {
+      "price_change": 46419553,
+      "book": 83328,
+      "last_trade_price": 36573,
+      "tick_size_change": 28
+    },
+    "file_distinct_assets": 47275,
+    "ts_min": "2026-05-03T08:54:35.850000+00:00",
+    "ts_max": "2026-06-15T15:59:59.822000+00:00",
+    "rows_for_expected_token_ids": 0,
+    "rows_for_expected_condition_ids": 0,
+    "busiest_assets": [
+      {
+        "rows": 90531,
+        "slug": null
+      },
+      {
+        "rows": 90530,
+        "slug": null
+      },
+      {
+        "rows": 72628,
+        "slug": null
+      }
+    ],
+    "fee_rate_bps_on_trades": {},
+    "book_info": {},
+    "rebuild": {}
+  }
+}

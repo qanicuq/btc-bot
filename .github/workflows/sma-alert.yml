@@ -1,0 +1,55 @@
+name: Weekly 200W SMA buy-limit alert
+
+on:
+  schedule:
+    # Saturday 00:15 New York time, 15 min after Webull's weekly bar closes.
+    # GitHub only speaks UTC: 04:15 UTC in summer (EDT), 05:15 UTC in winter (EST).
+    # Both run; the second one sees the alert was already sent and stops.
+    - cron: "15 4 * * 6"
+    - cron: "15 5 * * 6"
+  workflow_dispatch: {}         # "Run workflow" button on the Actions tab
+  push:
+    paths: [".github/sma-request"]   # Claude can request a run by committing this file
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sma-alert
+  cancel-in-progress: false
+
+jobs:
+  alert:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150        # retries every 15 min for up to 2 hours if the new week isn't in yet
+    steps:
+      # only the script folder: skips the ~900 MB of price history in this repo
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: scripts
+          filter: blob:none
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/sma_alert.py
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+      - name: Remember this week's numbers
+        if: success()
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add scripts/sma_state.json 2>/dev/null || exit 0
+          git commit -m "SMA alert sent" || exit 0
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
+
+      - name: Phone alert if this run failed
+        if: failure()
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          curl -s -H "Title: btc-bot: Weekly 200W SMA buy-limit alert FAILED" -H "Priority: high" -H "Tags: x" \
+            -H "Click: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            -d "Tap to open the failed run on GitHub." \
+            "https://ntfy.sh/${NTFY_TOPIC}" || true

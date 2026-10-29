@@ -1,0 +1,665 @@
+{
+  "hour": "2026-05-22T20",
+  "run_utc": "2026-10-16T01:56:23+00:00",
+  "errors": [],
+  "availability_r2v2_15utc": {
+    "days_checked": 237,
+    "days_found": 119,
+    "first_found": "2026-04-14",
+    "last_found": "2026-09-09",
+    "found_vs_missing_by_month": {
+      "2026-02": [
+        0,
+        8
+      ],
+      "2026-03": [
+        0,
+        31
+      ],
+      "2026-04": [
+        17,
+        13
+      ],
+      "2026-05": [
+        31,
+        0
+      ],
+      "2026-06": [
+        30,
+        0
+      ],
+      "2026-07": [
+        31,
+        0
+      ],
+      "2026-08": [
+        9,
+        22
+      ],
+      "2026-09": [
+        1,
+        29
+      ],
+      "2026-10": [
+        0,
+        15
+      ]
+    },
+    "status_codes": [
+      "206",
+      "404"
+    ],
+    "sample_sizes_bytes": {
+      "2026-10-13": "",
+      "2026-10-14": "",
+      "2026-10-15": ""
+    }
+  },
+  "requested_hour_status": {
+    "r2v2.pmxt.dev": [
+      206,
+      "241304330"
+    ],
+    "r2.pmxt.dev": [
+      404,
+      ""
+    ]
+  },
+  "doc_example_hour_2026-04-17T12": {
+    "r2v2.pmxt.dev": [
+      206,
+      "395555308"
+    ],
+    "r2.pmxt.dev": [
+      404,
+      ""
+    ]
+  },
+  "_good_hour": "2026-09-09T15",
+  "download": {
+    "url": "https://r2v2.pmxt.dev/polymarket_orderbook_2026-05-22T20.parquet",
+    "mb": 241.3,
+    "seconds": 15.2
+  },
+  "markets_found": 12,
+  "markets": [
+    {
+      "slug": "btc-updown-5m-1779480000",
+      "condition_id": "0x8ac5a8aeec2dc11d17f6a60ec487caebac10a12dc2e69b16764b0b7082416b86",
+      "tokens": [
+        "107929014913345302746788467341315848760760293129911324351206959553702928098049",
+        "33506464256831066020219347800352678076495723555245382564317911421109403339931"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1779480300",
+      "condition_id": "0x13c59bc712b29079ab0546b5ddd1a6223866819689861fc7d1059fb8e40b7cc2",
+      "tokens": [
+        "72115812834704277439830581528414928616369180128936634225810630075700929292720",
+        "111527155156834117858498612348920027959926144130172412592287512404433558799484"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1779480600",
+      "condition_id": "0x3642fdfbff5b2825153124d1ff6de100803a6369c0b2274b4f74b866e5e0cacd",
+      "tokens": [
+        "89503666865195410110570070119182713169619610861338332202629723738861387214993",
+        "12888054412689424675675089075141460874218742996268627787250685712561265445157"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "0",
+        "1"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1779480900",
+      "condition_id": "0x70dc559fe66521c820d918de0422953a06f935bac8b54dd7fb759cb691989cbc",
+      "tokens": [
+        "27042711341333350781062890942804620603780752302020699784405211666760615702230",
+        "59302710040092293967774692156033328899799672576365866925905388760450495858640"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1779481200",
+      "condition_id": "0x573f97b3c5fe530a24e79d0166527fcf763f18484ef3ea05c820c70bbb66e81d",
+      "tokens": [
+        "73671599709369285661720822333347952365464586663042461567070755183584973572002",
+        "31750172814732192430449326935493368729727736412468209082191409006422101908857"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1779481500",
+      "condition_id": "0xc704f74e2f9dfae70f770cb253ffadde10768eeab41233098bf5ac67995a94b5",
+      "tokens": [
+        "23523572091470643364331891196535905541939125250184703417699687648361933766651",
+        "88687826559322881113788099464338530096481699488777524507520253194640446886735"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1779481800",
+      "condition_id": "0x87cd3c632b849fa377cba1973a85d8d730a18cdae6c0d3ec0a61205384422a4c",
+      "tokens": [
+        "33142885332166301957974116297611641167780098624468150689701182702416226715154",
+        "95842604570560769620836425658523243834913924424787753632229922334772575775734"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "0",
+        "1"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1779482100",
+      "condition_id": "0xf32df315bd5535814da6b2ae4fac7214db4d9f65651bf71c2d4dbaaea81ec276",
+      "tokens": [
+        "85998509164426766785262007242570627794174876073866723861227260791078930675316",
+        "65095173184820598444197906238861354202287211146842811589136436131060577238720"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1779482400",
+      "condition_id": "0xcfc4dc133f0bb4b2519e72a9230ab5241327dd93cefd9c86c829fe639f5affe5",
+      "tokens": [
+        "18910194863638616913096602867877912822109125822651648497097806891978309050927",
+        "86885335359703466358684204361847062580450988426397593309175112371027656887725"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "0",
+        "1"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1779482700",
+      "condition_id": "0x0c57a102330febb2a652d4beeb221ee328c803bbcc3275ccc0416d5c58fa9f00",
+      "tokens": [
+        "32968371071231602220856162909364152607684788504567288273421966111410050284787",
+        "6917340413390616666863400724739578721866101109305996946009548183425661872168"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1779483000",
+      "condition_id": "0xb514e52b00c25dce490ac3de73307fed3721e0a5f658482a168766b4e714c451",
+      "tokens": [
+        "96827522863355796652987902869960394156089125973984511497090068436617035259055",
+        "46996151653573189023230221193386633026185548109574756640421292259403188576032"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1779483300",
+      "condition_id": "0x5eff6051521810781a4e899b583583fed703df5cf8154acbac0eefb043918e8c",
+      "tokens": [
+        "41304985913703082082078131391018062974483917646704082693019761707087371411668",
+        "59171447251878077226447856480983049143855361322602427428094528346341810911939"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "0",
+        "1"
+      ],
+      "closed": true
+    }
+  ],
+  "schema": [
+    "timestamp_received: timestamp[ms, tz=UTC]",
+    "timestamp: timestamp[ms, tz=UTC]",
+    "market: fixed_size_binary[66]",
+    "event_type: string",
+    "asset_id: string",
+    "bids: string",
+    "asks: string",
+    "price: decimal128(9, 4)",
+    "size: decimal128(18, 6)",
+    "side: string",
+    "best_bid: decimal128(9, 4)",
+    "best_ask: decimal128(9, 4)",
+    "fee_rate_bps: uint16",
+    "transaction_hash: string",
+    "old_tick_size: decimal128(9, 4)",
+    "new_tick_size: decimal128(9, 4)"
+  ],
+  "rows_total": 34782833,
+  "rows_matched": 1550710,
+  "columns": [
+    "timestamp_received",
+    "timestamp",
+    "market",
+    "event_type",
+    "asset_id",
+    "bids",
+    "asks",
+    "price",
+    "size",
+    "side",
+    "best_bid",
+    "best_ask",
+    "fee_rate_bps",
+    "transaction_hash",
+    "old_tick_size",
+    "new_tick_size"
+  ],
+  "event_type_counts": {
+    "price_change": 1533530,
+    "last_trade_price": 16950,
+    "book": 230
+  },
+  "sample_rows": [
+    {
+      "timestamp_received": "2026-05-22 20:01:58.437000+00:00",
+      "timestamp": "2026-05-22 20:01:16.187000+00:00",
+      "market": "b'0x0c57a102330febb2a652d4beeb221ee328c803bbcc3275ccc0416d5c58fa9f00'",
+      "event_type": "book",
+      "asset_id": "32968371071231602220856162909364152607684788504567288273421966111410050284787",
+      "bids": "[[\"0.01\",\"9622.41\"],[\"0.02\",\"1101.88\"],[\"0.03\",\"21952.07\"],[\"0.04\",\"1087.06\"],[\"0.05\",\"909.89\"],[\"0.06\",\"288\"],[\"0.07\",\"501.28\"],[\"0.08\",\"238.83\"],[\"0.09\",\"86\"],[\"0.1\",\"3102\"],[\"0.11\",\"86.21\"],[\"0.13\",\"50\"],[\"0.15\",\"2020\"],[\"0.16\",\"17.08\"],[\"0.23\",\"25\"],[\"0.24\",\"1053.3\"],[\"0.25\",\"1235.46\"],[\"0.26\",\"",
+      "asks": "[[\"0.99\",\"8961.41\"],[\"0.98\",\"1102.06\"],[\"0.97\",\"21941.4\"],[\"0.96\",\"1087.23\"],[\"0.95\",\"909.95\"],[\"0.94\",\"283\"],[\"0.93\",\"538.63\"],[\"0.92\",\"205\"],[\"0.91\",\"86\"],[\"0.9\",\"3102\"],[\"0.89\",\"60\"],[\"0.87\",\"50\"],[\"0.86\",\"20.34\"],[\"0.85\",\"2020\"],[\"0.81\",\"14.64\"],[\"0.77\",\"25\"],[\"0.76\",\"1041.67\"],[\"0.75\",\"1235.99\"",
+      "price": "None",
+      "size": "None",
+      "side": "nan",
+      "best_bid": "None",
+      "best_ask": "None",
+      "fee_rate_bps": "nan",
+      "transaction_hash": "nan",
+      "old_tick_size": "None",
+      "new_tick_size": "None"
+    },
+    {
+      "timestamp_received": "2026-05-22 20:08:24.688000+00:00",
+      "timestamp": "2026-05-22 20:05:27.532000+00:00",
+      "market": "b'0x0c57a102330febb2a652d4beeb221ee328c803bbcc3275ccc0416d5c58fa9f00'",
+      "event_type": "book",
+      "asset_id": "32968371071231602220856162909364152607684788504567288273421966111410050284787",
+      "bids": "[[\"0.01\",\"9622.41\"],[\"0.02\",\"1101.88\"],[\"0.03\",\"21952.07\"],[\"0.04\",\"1087.06\"],[\"0.05\",\"1159.89\"],[\"0.06\",\"288\"],[\"0.07\",\"501.28\"],[\"0.08\",\"238.83\"],[\"0.09\",\"86\"],[\"0.1\",\"3102\"],[\"0.11\",\"86.21\"],[\"0.13\",\"50\"],[\"0.15\",\"2020\"],[\"0.16\",\"17.08\"],[\"0.23\",\"25\"],[\"0.24\",\"1053.3\"],[\"0.25\",\"1235.46\"],[\"0.26\",",
+      "asks": "[[\"0.99\",\"8961.41\"],[\"0.98\",\"1102.06\"],[\"0.97\",\"21941.4\"],[\"0.96\",\"1087.23\"],[\"0.95\",\"1159.95\"],[\"0.94\",\"283\"],[\"0.93\",\"538.63\"],[\"0.92\",\"205\"],[\"0.91\",\"86\"],[\"0.9\",\"3102\"],[\"0.89\",\"60\"],[\"0.87\",\"50\"],[\"0.86\",\"20.34\"],[\"0.85\",\"2020\"],[\"0.81\",\"14.64\"],[\"0.77\",\"25\"],[\"0.76\",\"1041.67\"],[\"0.75\",\"1235.99",
+      "price": "None",
+      "size": "None",
+      "side": "nan",
+      "best_bid": "None",
+      "best_ask": "None",
+      "fee_rate_bps": "nan",
+      "transaction_hash": "nan",
+      "old_tick_size": "None",
+      "new_tick_size": "None"
+    },
+    {
+      "timestamp_received": "2026-05-22 20:09:41.387000+00:00",
+      "timestamp": "2026-05-22 20:08:51.171000+00:00",
+      "market": "b'0x0c57a102330febb2a652d4beeb221ee328c803bbcc3275ccc0416d5c58fa9f00'",
+      "event_type": "price_change",
+      "asset_id": "32968371071231602220856162909364152607684788504567288273421966111410050284787",
+      "bids": "nan",
+      "asks": "nan",
+      "price": "0.0100",
+      "size": "9632.410000",
+      "side": "BUY",
+      "best_bid": "0.5000",
+      "best_ask": "0.5100",
+      "fee_rate_bps": "nan",
+      "transaction_hash": "nan",
+      "old_tick_size": "None",
+      "new_tick_size": "None"
+    }
+  ],
+  "per_token_price_le_2c": [
+    {
+      "slug": "btc-updown-5m-1779480000",
+      "outcome": "Up",
+      "events_with_price": 66324,
+      "min_price": 0.01,
+      "events_price_le_2c": 4098,
+      "size_at_le_2c": 26834950.3,
+      "sides_le_2c": {
+        "BUY": 4098
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779480000",
+      "outcome": "Down",
+      "events_with_price": 67167,
+      "min_price": 0.01,
+      "events_price_le_2c": 3011,
+      "size_at_le_2c": 15739753.879999999,
+      "sides_le_2c": {
+        "BUY": 3011
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779480300",
+      "outcome": "Up",
+      "events_with_price": 26952,
+      "min_price": 0.01,
+      "events_price_le_2c": 3466,
+      "size_at_le_2c": 17707237.810000002,
+      "sides_le_2c": {
+        "BUY": 3466
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779480300",
+      "outcome": "Down",
+      "events_with_price": 26740,
+      "min_price": 0.01,
+      "events_price_le_2c": 9009,
+      "size_at_le_2c": 351188261.55999994,
+      "sides_le_2c": {
+        "BUY": 4759,
+        "SELL": 4250
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779480600",
+      "outcome": "Up",
+      "events_with_price": 62120,
+      "min_price": 0.01,
+      "events_price_le_2c": 2660,
+      "size_at_le_2c": 52052022.35,
+      "sides_le_2c": {
+        "BUY": 2639,
+        "SELL": 21
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779480600",
+      "outcome": "Down",
+      "events_with_price": 62204,
+      "min_price": 0.01,
+      "events_price_le_2c": 1907,
+      "size_at_le_2c": 21955980.25,
+      "sides_le_2c": {
+        "BUY": 1907
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779480900",
+      "outcome": "Up",
+      "events_with_price": 86737,
+      "min_price": 0.01,
+      "events_price_le_2c": 5562,
+      "size_at_le_2c": 41288001.51,
+      "sides_le_2c": {
+        "BUY": 5562
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779480900",
+      "outcome": "Down",
+      "events_with_price": 84747,
+      "min_price": 0.01,
+      "events_price_le_2c": 3050,
+      "size_at_le_2c": 21681653.859999996,
+      "sides_le_2c": {
+        "BUY": 3050
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779481200",
+      "outcome": "Up",
+      "events_with_price": 68148,
+      "min_price": 0.01,
+      "events_price_le_2c": 2669,
+      "size_at_le_2c": 16304146.89,
+      "sides_le_2c": {
+        "BUY": 2669
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779481200",
+      "outcome": "Down",
+      "events_with_price": 68111,
+      "min_price": 0.01,
+      "events_price_le_2c": 2632,
+      "size_at_le_2c": 220862818.20999998,
+      "sides_le_2c": {
+        "BUY": 2184,
+        "SELL": 448
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779481500",
+      "outcome": "Up",
+      "events_with_price": 46776,
+      "min_price": 0.01,
+      "events_price_le_2c": 2163,
+      "size_at_le_2c": 27580599.06,
+      "sides_le_2c": {
+        "BUY": 2163
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779481500",
+      "outcome": "Down",
+      "events_with_price": 46714,
+      "min_price": 0.01,
+      "events_price_le_2c": 1615,
+      "size_at_le_2c": 44507684.440000005,
+      "sides_le_2c": {
+        "BUY": 1592,
+        "SELL": 23
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779481800",
+      "outcome": "Up",
+      "events_with_price": 87923,
+      "min_price": 0.01,
+      "events_price_le_2c": 6890,
+      "size_at_le_2c": 42054851.400000006,
+      "sides_le_2c": {
+        "BUY": 6796,
+        "SELL": 94
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779481800",
+      "outcome": "Down",
+      "events_with_price": 89674,
+      "min_price": 0.01,
+      "events_price_le_2c": 3999,
+      "size_at_le_2c": 34591655.970000006,
+      "sides_le_2c": {
+        "BUY": 3999
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779482100",
+      "outcome": "Up",
+      "events_with_price": 86169,
+      "min_price": 0.01,
+      "events_price_le_2c": 3392,
+      "size_at_le_2c": 20565847.52,
+      "sides_le_2c": {
+        "BUY": 3392
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779482100",
+      "outcome": "Down",
+      "events_with_price": 85644,
+      "min_price": 0.01,
+      "events_price_le_2c": 3629,
+      "size_at_le_2c": 259460163.92000005,
+      "sides_le_2c": {
+        "BUY": 3214,
+        "SELL": 415
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779482400",
+      "outcome": "Up",
+      "events_with_price": 31338,
+      "min_price": 0.01,
+      "events_price_le_2c": 2652,
+      "size_at_le_2c": 278754042.51,
+      "sides_le_2c": {
+        "BUY": 1999,
+        "SELL": 653
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779482400",
+      "outcome": "Down",
+      "events_with_price": 31524,
+      "min_price": 0.01,
+      "events_price_le_2c": 1124,
+      "size_at_le_2c": 11997702.61,
+      "sides_le_2c": {
+        "BUY": 1124
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779482700",
+      "outcome": "Up",
+      "events_with_price": 138035,
+      "min_price": 0.01,
+      "events_price_le_2c": 6405,
+      "size_at_le_2c": 51909746.95,
+      "sides_le_2c": {
+        "BUY": 6405
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779482700",
+      "outcome": "Down",
+      "events_with_price": 137607,
+      "min_price": 0.01,
+      "events_price_le_2c": 7714,
+      "size_at_le_2c": 52036147.29000001,
+      "sides_le_2c": {
+        "BUY": 6831,
+        "SELL": 883
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779483000",
+      "outcome": "Up",
+      "events_with_price": 11715,
+      "min_price": 0.01,
+      "events_price_le_2c": 2451,
+      "size_at_le_2c": 14921812.64,
+      "sides_le_2c": {
+        "BUY": 2451
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779483000",
+      "outcome": "Down",
+      "events_with_price": 11586,
+      "min_price": 0.01,
+      "events_price_le_2c": 3375,
+      "size_at_le_2c": 315284199.49,
+      "sides_le_2c": {
+        "SELL": 2232,
+        "BUY": 1143
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779483300",
+      "outcome": "Up",
+      "events_with_price": 63106,
+      "min_price": 0.01,
+      "events_price_le_2c": 3546,
+      "size_at_le_2c": 38533346.38,
+      "sides_le_2c": {
+        "BUY": 3546
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1779483300",
+      "outcome": "Down",
+      "events_with_price": 63419,
+      "min_price": 0.01,
+      "events_price_le_2c": 2171,
+      "size_at_le_2c": 23111096.189999998,
+      "sides_le_2c": {
+        "BUY": 2171
+      }
+    }
+  ]
+}

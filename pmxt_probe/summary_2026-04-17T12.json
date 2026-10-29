@@ -1,0 +1,1170 @@
+{
+  "hour": "2026-04-17T12",
+  "run_utc": "2026-10-16T11:54:37+00:00",
+  "errors": [],
+  "download": {
+    "url": "https://r2v2.pmxt.dev/polymarket_orderbook_2026-04-17T12.parquet",
+    "mb": 395.6,
+    "seconds": 5.8
+  },
+  "markets_found": 12,
+  "markets": [
+    {
+      "slug": "btc-updown-5m-1776427200",
+      "condition_id": "0x21b03dac6af143aded9e87290ca4992130ab6ee4869da5a5550444ecdad7bc6d",
+      "tokens": [
+        "3687134936113259814120018428870065475457197148572513997094833851200721803459",
+        "72073386720180130976920185896552205256368139693011121023491421314405365561345"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "0",
+        "1"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1776427500",
+      "condition_id": "0x07843c418524a13e91ed158ecfbc32fe87b6a8a38d6e91598791fb5b40637340",
+      "tokens": [
+        "39928497873322258070541156144328767851397610469702449615732825833123351506393",
+        "45992038170627304410646143801905268090152371987307094714224721286264748610631"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1776427800",
+      "condition_id": "0xac80dc3beaab283bbea526830018a773679bc876761b6ddb431357983ac900e2",
+      "tokens": [
+        "91156174922127949951287320783999727708663866390730613674616494342025361849184",
+        "3993989955164786273944764083803022072052578436019107420822748890490145458854"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1776428100",
+      "condition_id": "0x945ff468ab8cc0b840625776680ab43003267d49f147e0570ca6fc69456f1d27",
+      "tokens": [
+        "28813687345662101184612955337014839217601722387081518142704346563729938347944",
+        "715774166587494746956276479519979339064210102067441054772058929225923765344"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1776428400",
+      "condition_id": "0xa98c127b12367b2281aa99bea3e226fa21d9cd45e85eb9e46387275841cb6a77",
+      "tokens": [
+        "47034938974451806961876336110417022502287223297805145404263998249913455256348",
+        "43364845590013858519634472146569389369328044993373146158397900738351543436571"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1776428700",
+      "condition_id": "0x5d713fb5495f3fea5f19ebb56221d854650e36e44774cb150c59ed6e12a2c570",
+      "tokens": [
+        "97480654345683695252008275581217142239659003418223448996506601436130073248526",
+        "13363267816044348922317667160584136052468428255926257396083697133193100984007"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "0",
+        "1"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1776429000",
+      "condition_id": "0x0d61554c6e4b95a4123e254e83f65534ec7e2b3b381ce0b5e79e966495ef5e3a",
+      "tokens": [
+        "50116175953583947860307080014869644439399671152644579782112295437096927621748",
+        "64537732149132589578677582748324800084213659176208568790510723307652070324638"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1776429300",
+      "condition_id": "0x135a72f4961f1165fd232a7aceb5b980c6e247e03eb901937509525d8ac617fa",
+      "tokens": [
+        "107031959310286235733110618497995739763006980825334800938979608743990697862661",
+        "53144498010379055842921580291460282712347118311605395874819632680743443704781"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "0",
+        "1"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1776429600",
+      "condition_id": "0x1f89e2470156b842535b64a6dc9d8e6ddddbb0f173fcc64752371c7c94c074a9",
+      "tokens": [
+        "104850478209017544704380758724441002021640797898505055351758356683447536554083",
+        "57611868969585202469814415681428587517189983486813312363501616703795536101165"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1776429900",
+      "condition_id": "0x60d71da81005781d94058dcffbb7f27e9c84e41ccbc795b8a8742185e69463b2",
+      "tokens": [
+        "81208808934065204680686344527409803352948172473576632245653727371827757599329",
+        "312119770349050179277095908688463355158625899180927295095635127552584914730"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1776430200",
+      "condition_id": "0x9320e5df0295e7c3475665bf7d1b8aef3f1cc535221a8f5951b4c265e1b74fb5",
+      "tokens": [
+        "7931125507816043166254434299080652910612875369814433594184584187870501335767",
+        "11654258797099907932366039225680113326908634317319020897320390931564309305937"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    },
+    {
+      "slug": "btc-updown-5m-1776430500",
+      "condition_id": "0x8be17f1246028090f59abe2854b539f7afb68a8a16eea7ae84d4d5a32058d15e",
+      "tokens": [
+        "43683065901699684601723970364743590038500506384268173837749636197536602582417",
+        "33093149604602860571993486081338622217767126528731396864819356348453204091690"
+      ],
+      "outcomes": [
+        "Up",
+        "Down"
+      ],
+      "outcome_prices": [
+        "1",
+        "0"
+      ],
+      "closed": true
+    }
+  ],
+  "schema": [
+    "timestamp_received: timestamp[ms, tz=UTC]",
+    "timestamp: timestamp[ms, tz=UTC]",
+    "market: fixed_size_binary[66]",
+    "event_type: string",
+    "asset_id: string",
+    "bids: string",
+    "asks: string",
+    "price: decimal128(9, 4)",
+    "size: decimal128(18, 6)",
+    "side: string",
+    "best_bid: decimal128(9, 4)",
+    "best_ask: decimal128(9, 4)",
+    "fee_rate_bps: uint16",
+    "transaction_hash: string",
+    "old_tick_size: decimal128(9, 4)",
+    "new_tick_size: decimal128(9, 4)"
+  ],
+  "rows_total": 72742606,
+  "rows_matched": 4065588,
+  "columns": [
+    "timestamp_received",
+    "timestamp",
+    "market",
+    "event_type",
+    "asset_id",
+    "bids",
+    "asks",
+    "price",
+    "size",
+    "side",
+    "best_bid",
+    "best_ask",
+    "fee_rate_bps",
+    "transaction_hash",
+    "old_tick_size",
+    "new_tick_size"
+  ],
+  "event_type_counts": {
+    "price_change": 4009214,
+    "last_trade_price": 56084,
+    "book": 284,
+    "tick_size_change": 6
+  },
+  "sample_rows": [
+    {
+      "timestamp_received": "2026-04-17 12:00:00.452000+00:00",
+      "timestamp": "2026-04-17 12:00:00.276000+00:00",
+      "market": "b'0x07843c418524a13e91ed158ecfbc32fe87b6a8a38d6e91598791fb5b40637340'",
+      "event_type": "price_change",
+      "asset_id": "39928497873322258070541156144328767851397610469702449615732825833123351506393",
+      "bids": "nan",
+      "asks": "nan",
+      "price": "0.5100",
+      "size": "452.710000",
+      "side": "SELL",
+      "best_bid": "0.5000",
+      "best_ask": "0.5100",
+      "fee_rate_bps": "nan",
+      "transaction_hash": "nan",
+      "old_tick_size": "None",
+      "new_tick_size": "None"
+    },
+    {
+      "timestamp_received": "2026-04-17 12:00:00.706000+00:00",
+      "timestamp": "2026-04-17 12:00:00.517000+00:00",
+      "market": "b'0x07843c418524a13e91ed158ecfbc32fe87b6a8a38d6e91598791fb5b40637340'",
+      "event_type": "price_change",
+      "asset_id": "39928497873322258070541156144328767851397610469702449615732825833123351506393",
+      "bids": "nan",
+      "asks": "nan",
+      "price": "0.5000",
+      "size": "114.060000",
+      "side": "BUY",
+      "best_bid": "0.5000",
+      "best_ask": "0.5100",
+      "fee_rate_bps": "nan",
+      "transaction_hash": "nan",
+      "old_tick_size": "None",
+      "new_tick_size": "None"
+    },
+    {
+      "timestamp_received": "2026-04-17 12:00:00.973000+00:00",
+      "timestamp": "2026-04-17 12:00:00.944000+00:00",
+      "market": "b'0x07843c418524a13e91ed158ecfbc32fe87b6a8a38d6e91598791fb5b40637340'",
+      "event_type": "price_change",
+      "asset_id": "39928497873322258070541156144328767851397610469702449615732825833123351506393",
+      "bids": "nan",
+      "asks": "nan",
+      "price": "0.5400",
+      "size": "1088.850000",
+      "side": "SELL",
+      "best_bid": "0.5000",
+      "best_ask": "0.5100",
+      "fee_rate_bps": "nan",
+      "transaction_hash": "nan",
+      "old_tick_size": "None",
+      "new_tick_size": "None"
+    }
+  ],
+  "per_token_price_le_2c": [
+    {
+      "slug": "btc-updown-5m-1776427200",
+      "outcome": "Up",
+      "events_with_price": 187185,
+      "min_price": 0.01,
+      "events_price_le_2c": 11953,
+      "size_at_le_2c": 781768156.074665,
+      "sides_le_2c": {
+        "BUY": 10984,
+        "SELL": 969
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776427200",
+      "outcome": "Down",
+      "events_with_price": 187388,
+      "min_price": 0.01,
+      "events_price_le_2c": 1498,
+      "size_at_le_2c": 17010030.000000004,
+      "sides_le_2c": {
+        "BUY": 1498
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776427500",
+      "outcome": "Up",
+      "events_with_price": 165574,
+      "min_price": 0.01,
+      "events_price_le_2c": 15286,
+      "size_at_le_2c": 244611403.76999998,
+      "sides_le_2c": {
+        "BUY": 15286
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776427500",
+      "outcome": "Down",
+      "events_with_price": 164969,
+      "min_price": 0.01,
+      "events_price_le_2c": 3243,
+      "size_at_le_2c": 541966078.78,
+      "sides_le_2c": {
+        "BUY": 1992,
+        "SELL": 1251
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776427800",
+      "outcome": "Up",
+      "events_with_price": 154775,
+      "min_price": 0.01,
+      "events_price_le_2c": 13557,
+      "size_at_le_2c": 205502429.17999998,
+      "sides_le_2c": {
+        "BUY": 13557
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776427800",
+      "outcome": "Down",
+      "events_with_price": 153685,
+      "min_price": 0.01,
+      "events_price_le_2c": 6698,
+      "size_at_le_2c": 513708324.6,
+      "sides_le_2c": {
+        "BUY": 3717,
+        "SELL": 2981
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776428100",
+      "outcome": "Up",
+      "events_with_price": 163076,
+      "min_price": 0.01,
+      "events_price_le_2c": 12203,
+      "size_at_le_2c": 191254564.14999998,
+      "sides_le_2c": {
+        "BUY": 12203
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776428100",
+      "outcome": "Down",
+      "events_with_price": 162293,
+      "min_price": 0.01,
+      "events_price_le_2c": 7138,
+      "size_at_le_2c": 597982855.62,
+      "sides_le_2c": {
+        "BUY": 5280,
+        "SELL": 1858
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776428400",
+      "outcome": "Up",
+      "events_with_price": 179639,
+      "min_price": 0.01,
+      "events_price_le_2c": 13498,
+      "size_at_le_2c": 183605728.81,
+      "sides_le_2c": {
+        "BUY": 13494,
+        "SELL": 4
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776428400",
+      "outcome": "Down",
+      "events_with_price": 179459,
+      "min_price": 0.01,
+      "events_price_le_2c": 4237,
+      "size_at_le_2c": 629077475.4000001,
+      "sides_le_2c": {
+        "BUY": 3080,
+        "SELL": 1157
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776428700",
+      "outcome": "Up",
+      "events_with_price": 171482,
+      "min_price": 0.01,
+      "events_price_le_2c": 8763,
+      "size_at_le_2c": 582817685.09,
+      "sides_le_2c": {
+        "BUY": 8056,
+        "SELL": 707
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776428700",
+      "outcome": "Down",
+      "events_with_price": 171602,
+      "min_price": 0.01,
+      "events_price_le_2c": 1588,
+      "size_at_le_2c": 19012386.189999998,
+      "sides_le_2c": {
+        "BUY": 1588
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776429000",
+      "outcome": "Up",
+      "events_with_price": 186319,
+      "min_price": 0.01,
+      "events_price_le_2c": 12417,
+      "size_at_le_2c": 176975820.82999998,
+      "sides_le_2c": {
+        "BUY": 12417
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776429000",
+      "outcome": "Down",
+      "events_with_price": 185045,
+      "min_price": 0.01,
+      "events_price_le_2c": 6405,
+      "size_at_le_2c": 535832561.2433321,
+      "sides_le_2c": {
+        "BUY": 4842,
+        "SELL": 1563
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776429300",
+      "outcome": "Up",
+      "events_with_price": 146114,
+      "min_price": 0.001,
+      "events_price_le_2c": 21218,
+      "size_at_le_2c": 819210095.48,
+      "sides_le_2c": {
+        "BUY": 15181,
+        "SELL": 6037
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776429300",
+      "outcome": "Down",
+      "events_with_price": 146812,
+      "min_price": 0.001,
+      "events_price_le_2c": 8474,
+      "size_at_le_2c": 110987061.26,
+      "sides_le_2c": {
+        "BUY": 8474
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776429600",
+      "outcome": "Up",
+      "events_with_price": 168150,
+      "min_price": 0.001,
+      "events_price_le_2c": 15515,
+      "size_at_le_2c": 219245548.20000005,
+      "sides_le_2c": {
+        "BUY": 15515
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776429600",
+      "outcome": "Down",
+      "events_with_price": 166685,
+      "min_price": 0.001,
+      "events_price_le_2c": 6979,
+      "size_at_le_2c": 573886185.8733319,
+      "sides_le_2c": {
+        "BUY": 5118,
+        "SELL": 1861
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776429900",
+      "outcome": "Up",
+      "events_with_price": 108991,
+      "min_price": 0.001,
+      "events_price_le_2c": 14746,
+      "size_at_le_2c": 207609847.33000004,
+      "sides_le_2c": {
+        "BUY": 14746
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776429900",
+      "outcome": "Down",
+      "events_with_price": 108530,
+      "min_price": 0.001,
+      "events_price_le_2c": 16892,
+      "size_at_le_2c": 845617310.3299999,
+      "sides_le_2c": {
+        "BUY": 9434,
+        "SELL": 7458
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776430200",
+      "outcome": "Up",
+      "events_with_price": 182995,
+      "min_price": 0.01,
+      "events_price_le_2c": 8494,
+      "size_at_le_2c": 108452086.86,
+      "sides_le_2c": {
+        "BUY": 8494
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776430200",
+      "outcome": "Down",
+      "events_with_price": 181841,
+      "min_price": 0.01,
+      "events_price_le_2c": 4889,
+      "size_at_le_2c": 624498795.3,
+      "sides_le_2c": {
+        "BUY": 3161,
+        "SELL": 1728
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776430500",
+      "outcome": "Up",
+      "events_with_price": 221233,
+      "min_price": 0.01,
+      "events_price_le_2c": 12016,
+      "size_at_le_2c": 160430963.10000002,
+      "sides_le_2c": {
+        "BUY": 12016
+      }
+    },
+    {
+      "slug": "btc-updown-5m-1776430500",
+      "outcome": "Down",
+      "events_with_price": 221456,
+      "min_price": 0.01,
+      "events_price_le_2c": 3184,
+      "size_at_le_2c": 32049687.44,
+      "sides_le_2c": {
+        "BUY": 2671,
+        "SELL": 513
+      }
+    }
+  ],
+  "diag": {
+    "columns_read": [
+      "timestamp_received",
+      "timestamp",
+      "market",
+      "event_type",
+      "asset_id",
+      "bids",
+      "asks",
+      "price",
+      "size",
+      "side",
+      "best_bid",
+      "best_ask",
+      "fee_rate_bps"
+    ],
+    "file_rows": 72742606,
+    "file_event_types": {
+      "price_change": 72589201,
+      "book": 4411,
+      "last_trade_price": 148506,
+      "tick_size_change": 488
+    },
+    "file_distinct_assets": 87783,
+    "ts_min": "2026-03-20T00:34:09.633000+00:00",
+    "ts_max": "2026-04-17T12:59:59.878000+00:00",
+    "rows_for_expected_token_ids": 4065588,
+    "rows_for_expected_condition_ids": 4065588,
+    "busiest_assets": [
+      {
+        "rows": 232460,
+        "slug": null
+      },
+      {
+        "rows": 232216,
+        "slug": null
+      },
+      {
+        "rows": 221473,
+        "slug": null
+      }
+    ],
+    "fee_rate_bps_on_trades": {
+      "1000": 27472
+    },
+    "trade_context_file_order": [
+      {
+        "idx": "10810822",
+        "ts": "1776427200197",
+        "event_type": "price_change",
+        "side": "BUY",
+        "price": "0.0800",
+        "size": "3252.000000",
+        "best_bid": "0.4700",
+        "best_ask": "0.4800"
+      },
+      {
+        "idx": "10810823",
+        "ts": "1776427200198",
+        "event_type": "price_change",
+        "side": "BUY",
+        "price": "0.0800",
+        "size": "3273.000000",
+        "best_bid": "0.4700",
+        "best_ask": "0.4800"
+      },
+      {
+        "idx": "10810824",
+        "ts": "1776427200202",
+        "event_type": "price_change",
+        "side": "SELL",
+        "price": "0.4800",
+        "size": "417.080000",
+        "best_bid": "0.4700",
+        "best_ask": "0.4800"
+      },
+      {
+        "idx": "10810825",
+        "ts": "1776427200205",
+        "event_type": "price_change",
+        "side": "SELL",
+        "price": "0.4800",
+        "size": "411.080000",
+        "best_bid": "0.4700",
+        "best_ask": "0.4800"
+      },
+      {
+        "idx": "10810826",
+        "ts": "1776427200220",
+        "event_type": "price_change",
+        "side": "SELL",
+        "price": "0.9900",
+        "size": "7929.150000",
+        "best_bid": "0.4700",
+        "best_ask": "0.4800"
+      },
+      {
+        "idx": "10810827",
+        "ts": "1776427200221",
+        "event_type": "price_change",
+        "side": "BUY",
+        "price": "0.0100",
+        "size": "7891.430000",
+        "best_bid": "0.4700",
+        "best_ask": "0.4800"
+      },
+      {
+        "idx": "10810828",
+        "ts": "1776427200220",
+        "event_type": "last_trade_price",
+        "side": "BUY",
+        "price": "0.4800",
+        "size": "20.833332",
+        "best_bid": "None",
+        "best_ask": "None"
+      },
+      {
+        "idx": "10810829",
+        "ts": "1776427200224",
+        "event_type": "price_change",
+        "side": "SELL",
+        "price": "0.9200",
+        "size": "3189.000000",
+        "best_bid": "0.4700",
+        "best_ask": "0.4800"
+      },
+      {
+        "idx": "10810830",
+        "ts": "1776427200226",
+        "event_type": "price_change",
+        "side": "SELL",
+        "price": "0.9900",
+        "size": "7934.150000",
+        "best_bid": "0.4700",
+        "best_ask": "0.4800"
+      },
+      {
+        "idx": "10810831",
+        "ts": "1776427200227",
+        "event_type": "price_change",
+        "side": "BUY",
+        "price": "0.4400",
+        "size": "117.000000",
+        "best_bid": "0.4700",
+        "best_ask": "0.4800"
+      },
+      {
+        "idx": "10810832",
+        "ts": "1776427200228",
+        "event_type": "price_change",
+        "side": "SELL",
+        "price": "0.9200",
+        "size": "3230.000000",
+        "best_bid": "0.4700",
+        "best_ask": "0.4800"
+      },
+      {
+        "idx": "10810833",
+        "ts": "1776427200229",
+        "event_type": "price_change",
+        "side": "SELL",
+        "price": "0.5300",
+        "size": "347.380000",
+        "best_bid": "0.4700",
+        "best_ask": "0.4800"
+      },
+      {
+        "idx": "10810834",
+        "ts": "1776427200230",
+        "event_type": "price_change",
+        "side": "SELL",
+        "price": "0.5600",
+        "size": "117.000000",
+        "best_bid": "0.4700",
+        "best_ask": "0.4800"
+      }
+    ],
+    "snap_consistency": {
+      "ts_stable|total|trades_ignore|flip_False": {
+        "pairs": 146,
+        "levels": 14166,
+        "exact": 13099,
+        "missing": 5,
+        "phantom": 687,
+        "sizediff": 1062,
+        "exact_pct": 92.5
+      },
+      "ts_stable|total|trades_ignore|flip_True": {
+        "pairs": 146,
+        "levels": 14166,
+        "exact": 6734,
+        "missing": 405,
+        "phantom": 7950,
+        "sizediff": 7027,
+        "exact_pct": 47.5
+      },
+      "ts_stable|total|trades_consume|flip_False": {
+        "pairs": 146,
+        "levels": 14166,
+        "exact": 13072,
+        "missing": 11,
+        "phantom": 474,
+        "sizediff": 1083,
+        "exact_pct": 92.3
+      },
+      "ts_stable|total|trades_consume|flip_True": {
+        "pairs": 146,
+        "levels": 14166,
+        "exact": 6734,
+        "missing": 604,
+        "phantom": 7931,
+        "sizediff": 6828,
+        "exact_pct": 47.5
+      },
+      "ts_stable|delta|trades_ignore|flip_False": {
+        "pairs": 146,
+        "levels": 14166,
+        "exact": 6219,
+        "missing": 3,
+        "phantom": 1103,
+        "sizediff": 7944,
+        "exact_pct": 43.9
+      },
+      "ts_stable|delta|trades_ignore|flip_True": {
+        "pairs": 146,
+        "levels": 14166,
+        "exact": 6733,
+        "missing": 71,
+        "phantom": 8023,
+        "sizediff": 7362,
+        "exact_pct": 47.5
+      },
+      "ts_stable|delta|trades_consume|flip_False": {
+        "pairs": 146,
+        "levels": 14166,
+        "exact": 6218,
+        "missing": 3,
+        "phantom": 1090,
+        "sizediff": 7945,
+        "exact_pct": 43.9
+      },
+      "ts_stable|delta|trades_consume|flip_True": {
+        "pairs": 146,
+        "levels": 14166,
+        "exact": 6733,
+        "missing": 104,
+        "phantom": 8017,
+        "sizediff": 7329,
+        "exact_pct": 47.5
+      },
+      "file|total|trades_ignore|flip_False": {
+        "pairs": 146,
+        "levels": 14166,
+        "exact": 11579,
+        "missing": 16,
+        "phantom": 846,
+        "sizediff": 2571,
+        "exact_pct": 81.7
+      },
+      "file|total|trades_ignore|flip_True": {
+        "pairs": 146,
+        "levels": 14166,
+        "exact": 6731,
+        "missing": 292,
+        "phantom": 8027,
+        "sizediff": 7143,
+        "exact_pct": 47.5
+      },
+      "file|total|trades_consume|flip_False": {
+        "pairs": 146,
+        "levels": 14166,
+        "exact": 11564,
+        "missing": 20,
+        "phantom": 707,
+        "sizediff": 2582,
+        "exact_pct": 81.6
+      },
+      "file|total|trades_consume|flip_True": {
+        "pairs": 146,
+        "levels": 14166,
+        "exact": 6731,
+        "missing": 496,
+        "phantom": 8008,
+        "sizediff": 6939,
+        "exact_pct": 47.5
+      },
+      "file|delta|trades_ignore|flip_False": {
+        "pairs": 146,
+        "levels": 14166,
+        "exact": 6071,
+        "missing": 7,
+        "phantom": 1118,
+        "sizediff": 8088,
+        "exact_pct": 42.9
+      },
+      "file|delta|trades_ignore|flip_True": {
+        "pairs": 146,
+        "levels": 14166,
+        "exact": 6731,
+        "missing": 66,
+        "phantom": 8074,
+        "sizediff": 7369,
+        "exact_pct": 47.5
+      },
+      "file|delta|trades_consume|flip_False": {
+        "pairs": 146,
+        "levels": 14166,
+        "exact": 6070,
+        "missing": 7,
+        "phantom": 1109,
+        "sizediff": 8089,
+        "exact_pct": 42.8
+      },
+      "file|delta|trades_consume|flip_True": {
+        "pairs": 146,
+        "levels": 14166,
+        "exact": 6731,
+        "missing": 100,
+        "phantom": 8067,
+        "sizediff": 7335,
+        "exact_pct": 47.5
+      }
+    },
+    "book_info": {
+      "1776427200_Up": {
+        "rows": 187185,
+        "book_events": 0,
+        "first_books_sec_from_window_start": [],
+        "books_inside_window": 0,
+        "file_order_ts_decreases": 82139
+      },
+      "1776427200_Down": {
+        "rows": 187412,
+        "book_events": 24,
+        "first_books_sec_from_window_start": [
+          9.5,
+          32.1,
+          129.8,
+          130.5
+        ],
+        "books_inside_window": 24,
+        "file_order_ts_decreases": 82824
+      },
+      "1776427500_Up": {
+        "rows": 165574,
+        "book_events": 0,
+        "first_books_sec_from_window_start": [],
+        "books_inside_window": 0,
+        "file_order_ts_decreases": 73972
+      },
+      "1776427500_Down": {
+        "rows": 165005,
+        "book_events": 36,
+        "first_books_sec_from_window_start": [
+          3.4,
+          15.4,
+          22.5,
+          23.0
+        ],
+        "books_inside_window": 36,
+        "file_order_ts_decreases": 73570
+      },
+      "1776427800_Up": {
+        "rows": 154777,
+        "book_events": 2,
+        "first_books_sec_from_window_start": [
+          173.2,
+          197.7
+        ],
+        "books_inside_window": 2,
+        "file_order_ts_decreases": 70858
+      },
+      "1776427800_Down": {
+        "rows": 153705,
+        "book_events": 20,
+        "first_books_sec_from_window_start": [
+          51.4,
+          69.4,
+          109.0,
+          128.3
+        ],
+        "books_inside_window": 20,
+        "file_order_ts_decreases": 71034
+      },
+      "1776428100_Up": {
+        "rows": 163076,
+        "book_events": 0,
+        "first_books_sec_from_window_start": [],
+        "books_inside_window": 0,
+        "file_order_ts_decreases": 75413
+      },
+      "1776428100_Down": {
+        "rows": 162313,
+        "book_events": 20,
+        "first_books_sec_from_window_start": [
+          2.1,
+          64.3,
+          160.1,
+          163.4
+        ],
+        "books_inside_window": 20,
+        "file_order_ts_decreases": 75581
+      },
+      "1776428400_Up": {
+        "rows": 179639,
+        "book_events": 0,
+        "first_books_sec_from_window_start": [],
+        "books_inside_window": 0,
+        "file_order_ts_decreases": 79803
+      },
+      "1776428400_Down": {
+        "rows": 179479,
+        "book_events": 20,
+        "first_books_sec_from_window_start": [
+          150.0,
+          167.9,
+          188.5,
+          190.9
+        ],
+        "books_inside_window": 20,
+        "file_order_ts_decreases": 80559
+      },
+      "1776428700_Up": {
+        "rows": 171482,
+        "book_events": 0,
+        "first_books_sec_from_window_start": [],
+        "books_inside_window": 0,
+        "file_order_ts_decreases": 77573
+      },
+      "1776428700_Down": {
+        "rows": 171633,
+        "book_events": 31,
+        "first_books_sec_from_window_start": [
+          2.7,
+          3.7,
+          5.3,
+          7.8
+        ],
+        "books_inside_window": 31,
+        "file_order_ts_decreases": 78339
+      }
+    },
+    "rebuild": {
+      "1776427200_Up": {
+        "file_all": {
+          "checked": 0,
+          "both_pct": null,
+          "bid_pct": null,
+          "ask_pct": null,
+          "samples": []
+        },
+        "file_lastinms": {
+          "checked": 0,
+          "both_pct": null,
+          "bid_pct": null,
+          "ask_pct": null
+        },
+        "ts_stable_all": {
+          "checked": 0,
+          "both_pct": null,
+          "bid_pct": null,
+          "ask_pct": null
+        },
+        "ts_stable_lastinms": {
+          "checked": 0,
+          "both_pct": null,
+          "bid_pct": null,
+          "ask_pct": null
+        },
+        "recv_stable_lastinms": {
+          "checked": 0,
+          "both_pct": null,
+          "bid_pct": null,
+          "ask_pct": null
+        }
+      },
+      "1776427200_Down": {
+        "file_all": {
+          "checked": 180576,
+          "both_pct": 4.8,
+          "bid_pct": 25.4,
+          "ask_pct": 37.4
+        },
+        "file_lastinms": {
+          "checked": 160628,
+          "both_pct": 4.7,
+          "bid_pct": 25.3,
+          "ask_pct": 37.4
+        },
+        "ts_stable_all": {
+          "checked": 180576,
+          "both_pct": 6.1,
+          "bid_pct": 28.9,
+          "ask_pct": 39.7
+        },
+        "ts_stable_lastinms": {
+          "checked": 159572,
+          "both_pct": 6.0,
+          "bid_pct": 28.6,
+          "ask_pct": 39.6
+        },
+        "recv_stable_lastinms": {
+          "checked": 1534,
+          "both_pct": 7.8,
+          "bid_pct": 35.9,
+          "ask_pct": 38.6
+        }
+      },
+      "1776427500_Up": {
+        "file_all": {
+          "checked": 0,
+          "both_pct": null,
+          "bid_pct": null,
+          "ask_pct": null
+        },
+        "file_lastinms": {
+          "checked": 0,
+          "both_pct": null,
+          "bid_pct": null,
+          "ask_pct": null
+        },
+        "ts_stable_all": {
+          "checked": 0,
+          "both_pct": null,
+          "bid_pct": null,
+          "ask_pct": null
+        },
+        "ts_stable_lastinms": {
+          "checked": 0,
+          "both_pct": null,
+          "bid_pct": null,
+          "ask_pct": null
+        },
+        "recv_stable_lastinms": {
+          "checked": 0,
+          "both_pct": null,
+          "bid_pct": null,
+          "ask_pct": null
+        }
+      },
+      "1776427500_Down": {
+        "file_all": {
+          "checked": 160466,
+          "both_pct": 7.0,
+          "bid_pct": 17.5,
+          "ask_pct": 51.7
+        },
+        "file_lastinms": {
+          "checked": 144932,
+          "both_pct": 7.3,
+          "bid_pct": 17.9,
+          "ask_pct": 52.4
+        },
+        "ts_stable_all": {
+          "checked": 160466,
+          "both_pct": 8.7,
+          "bid_pct": 21.0,
+          "ask_pct": 55.3
+        },
+        "ts_stable_lastinms": {
+          "checked": 144211,
+          "both_pct": 9.0,
+          "bid_pct": 21.3,
+          "ask_pct": 55.9
+        },
+        "recv_stable_lastinms": {
+          "checked": 1561,
+          "both_pct": 10.1,
+          "bid_pct": 19.3,
+          "ask_pct": 61.1
+        }
+      }
+    }
+  }
+}

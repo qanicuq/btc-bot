@@ -1,0 +1,47 @@
+name: Update BTC/ETH data
+
+on:
+  schedule:
+    - cron: "17 3 * * *"        # daily 03:17 UTC, after Binance publishes yesterday's file
+  workflow_dispatch: {}          # "Run workflow" button on the Actions tab
+  push:
+    branches: [main]
+    paths: [".github/refresh-request"]   # Claude bumps this file to request an update
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pandas
+      - run: python scripts/update_data.py
+      - name: Commit new data and status
+        if: always()
+        run: |
+          git config user.name "btc-bot data updater"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add clean .github/update-status.json
+          if git diff --cached --quiet; then echo "No new data"; exit 0; fi
+          git commit -m "Data update $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Phone alert if this run failed
+        if: failure()
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          curl -s -H "Title: btc-bot: Update BTC/ETH data FAILED" -H "Priority: high" -H "Tags: x" \
+            -H "Click: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            -d "Tap to open the failed run on GitHub." \
+            "https://ntfy.sh/${NTFY_TOPIC}" || true
