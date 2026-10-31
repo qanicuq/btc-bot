@@ -84,7 +84,7 @@ def sma_for(coin, now):
                 if c is None:
                     raise RuntimeError(f"missing hour before {e:%Y-%m-%d %H:%M} UTC")
                 closes.append(c)
-            return sum(closes) / WEEKS, name, ends[0]
+            return sum(closes) / WEEKS, name, ends[0], closes[0]   # closes[0] = latest weekly close
         except Exception as ex:
             errs.append(f"{name}: {ex}")
     raise RuntimeError(f"{coin}: {'; '.join(errs)}")
@@ -123,12 +123,15 @@ def main():
     for c, r in results.items():
         stop = round(r[0] * (1 - DISCOUNT), 2)
         limit = math.floor(stop * (1 + LIMIT_ABOVE) * 100) / 100   # rounded down: Webull rejects >1% over stop
-        lines.append(f"{c}: Stop Limit buy - stop ${stop:,.2f}, limit ${limit:,.2f}  (200W SMA ${r[0]:,.2f}, {r[1]})")
+        if r[3] > stop:   # price above the buy level: a plain limit waits for the drop
+            lines.append(f"{c}: Limit GTC buy at ${stop:,.2f}  (price ${r[3]:,.0f} is above it; 200W SMA ${r[0]:,.2f}, {r[1]})")
+        else:             # price below: a plain limit would fill now, so wait for the rise with a stop limit
+            lines.append(f"{c}: Stop Limit GTC buy - stop ${stop:,.2f}, limit ${limit:,.2f}  (price ${r[3]:,.0f} is below it; 200W SMA ${r[0]:,.2f}, {r[1]})")
     lines += errors
     if week:
         lines.append(f"Weeks ending {week.astimezone(NY):%a %b %d} 12:00 AM ET, like Webull's weekly chart.")
     lines.append("Cancel last week's unfilled buys in Webull before placing the new ones.")
-    title = "200W SMA stop-limit buys (stop 2% under, limit +1%)" if ok else "200W SMA alert: problem"
+    title = "200W SMA buy orders" if ok else "200W SMA alert: problem"
     body = "\n".join(lines)
     print(title, body, sep="\n")
     if a.dry_run:
