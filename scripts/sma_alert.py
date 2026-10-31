@@ -13,6 +13,7 @@ last week), it waits 15 minutes and tries again, up to 2 hours.
 """
 import argparse
 import json
+import math
 import os
 import pathlib
 import time
@@ -22,7 +23,8 @@ from zoneinfo import ZoneInfo
 
 COINS = ("BTC", "ETH")
 WEEKS = 200
-DISCOUNT = 0.02          # limit 2% under the SMA to cover Webull's buy spread/markup (no commission)
+DISCOUNT = 0.02          # stop price 2% under the SMA to cover Webull's buy spread/markup (no commission)
+LIMIT_ABOVE = 0.01       # limit price 1% above the stop (Webull's maximum for crypto stop-limit orders)
 TOPIC = os.environ.get("NTFY_TOPIC")
 UA = {"User-Agent": "sma-alert/2.0"}
 NY = ZoneInfo("America/New_York")
@@ -117,12 +119,16 @@ def main():
         break
 
     ok = not errors
-    lines = [f"{c}: buy limit ${r[0] * (1 - DISCOUNT):,.2f}  (200W SMA ${r[0]:,.2f}, {r[1]})" for c, r in results.items()]
+    lines = []
+    for c, r in results.items():
+        stop = round(r[0] * (1 - DISCOUNT), 2)
+        limit = math.floor(stop * (1 + LIMIT_ABOVE) * 100) / 100   # rounded down: Webull rejects >1% over stop
+        lines.append(f"{c}: Stop Limit buy - stop ${stop:,.2f}, limit ${limit:,.2f}  (200W SMA ${r[0]:,.2f}, {r[1]})")
     lines += errors
     if week:
         lines.append(f"Weeks ending {week.astimezone(NY):%a %b %d} 12:00 AM ET, like Webull's weekly chart.")
     lines.append("Cancel last week's unfilled buys in Webull before placing the new ones.")
-    title = "200W SMA buy limits (2% under)" if ok else "200W SMA alert: problem"
+    title = "200W SMA stop-limit buys (stop 2% under, limit +1%)" if ok else "200W SMA alert: problem"
     body = "\n".join(lines)
     print(title, body, sep="\n")
     if a.dry_run:

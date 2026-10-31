@@ -33,10 +33,10 @@ Binance (data.binance.vision) is NOT reachable from Claude's cloud workspace - o
 
 ## Weekly 200W SMA alert (`scripts/sma_alert.py`)
 Every Saturday 00:15 New York time (15 min after Webull's weekly bar closes) GitHub Actions sends the owner an ntfy push
-(topic from the NTFY_TOPIC secret) with BTC/ETH buy limits = 200-week SMA minus 2% (Webull buy markup). Weeks match Webull's
+(topic from the NTFY_TOPIC secret) with BTC/ETH Stop Limit buys: stop = 200-week SMA minus 2% (Webull buy markup), limit = stop + 1% rounded down (Webull's max). Weeks match Webull's
 chart: Saturday 00:00 ET boundaries, USD closes from Coinbase hourly candles (Binance USDT fallback). Retries every 15 min
 (up to 2 h) until the new week appears; last sent numbers in `scripts/sma_state.json`. Request a run by committing a
-timestamp to `.github/sma-request`. Alert only - he places the Webull limit orders by hand.
+timestamp to `.github/sma-request`. Alert only - he places the Webull stop-limit orders by hand.
 
 ## Crypto paper bot (`paperbot/`)
 Weekly trend strategy on BTC/ETH; runs itself daily on GitHub Actions - no Claude needed. Read `paperbot/README.md`.
