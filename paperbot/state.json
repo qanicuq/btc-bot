@@ -10,13 +10,13 @@
    "cost": 202.2
   },
   "ETHUSD": {
-   "cash": 297.79999999999995,
-   "units": 0.08047188714622547,
-   "target": 0.4,
-   "cost": 202.2
+   "cash": 336.036920675481,
+   "units": 0.06345769262086282,
+   "target": 0.3,
+   "cost": 159.44879513789687
   }
  },
- "last_rebalance_day": "2026-10-25",
+ "last_rebalance_day": "2026-11-01",
  "equity_curve": [
   [
    "2026-10-09",
@@ -105,6 +105,10 @@
   [
    "2026-10-31",
    964.45
+  ],
+  [
+   "2026-11-01",
+   967.57
   ]
  ],
  "trades": [
@@ -121,6 +125,13 @@
    "usd": 200.0,
    "price": 2485.34,
    "why": "4/5 trend votes"
+  },
+  {
+   "day": "2026-11-01",
+   "coin": "ETHUSD",
+   "usd": -38.66,
+   "price": 2272.35,
+   "why": "3/5 trend votes"
   }
  ],
  "peak": 1002.2350442064186,
@@ -129,5 +140,8 @@
   "reason": "",
   "at": null
  },
- "alerted_drawdown": false
+ "alerted_drawdown": false,
+ "closed_pl": [
+  -4.51
+ ]
 }
