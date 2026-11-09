@@ -1,14 +1,14 @@
 {
- "day": "2026-11-07",
- "equity": 959.3,
- "drawdown": -0.0428,
+ "day": "2026-11-08",
+ "equity": 947.78,
+ "drawdown": -0.0543,
  "prices": {
-  "BTCUSD": 75753.9,
-  "ETHUSD": 2236.88
+  "BTCUSD": 74737.9,
+  "ETHUSD": 2124.05
  },
  "targets": {
-  "BTCUSD": 0.4,
-  "ETHUSD": 0.3
+  "BTCUSD": 0.3,
+  "ETHUSD": 0.0
  },
  "votes": {
   "BTCUSD": {
@@ -20,9 +20,9 @@
   },
   "ETHUSD": {
    "above_100d_avg": false,
-   "above_150d_avg": true,
-   "above_200d_avg": true,
-   "above_250d_avg": true,
+   "above_150d_avg": false,
+   "above_200d_avg": false,
+   "above_250d_avg": false,
    "up_over_12_months": false
   }
  },

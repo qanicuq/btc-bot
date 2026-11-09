@@ -1,26 +1,28 @@
 # Crypto paper bot (weekly trend)
 
-Paper money only. Prices through **2026-11-07** (daily close, UTC). Checks daily, trades only on Sunday's close if the trend votes changed. Runs free on GitHub Actions.
+Paper money only. Prices through **2026-11-08** (daily close, UTC). Checks daily, trades only on Sunday's close if the trend votes changed. Runs free on GitHub Actions.
 
 ![equity](out/equity.svg)
 
 | Paper account | Since start | From its high | Worst drawdown | In coins | Status |
 |---|---|---|---|---|---|
-| $959.30 | -4.07% | -4.3% | -4.3% | $325.46 (34%) | running |
+| $947.78 | -5.22% | -5.4% | -5.4% | $143.66 (15%) | running |
 
 ## Trend votes (5 per coin)
 
 | Coin | Price | 100d | 150d | 200d | 250d | 12-month | Target in coin |
 |---|---|---|---|---|---|---|---|
-| BTCUSD | $75,753.90 | no | yes | yes | yes | no | 40% of its half |
-| ETHUSD | $2,236.88 | no | yes | yes | yes | no | 30% of its half |
+| BTCUSD | $74,737.90 | no | yes | yes | yes | no | 30% of its half |
+| ETHUSD | $2,124.05 | no | no | no | no | no | 0% of its half |
 
-Expectancy (average profit/loss per sell, fees included): $-4.51 over 1 sells
+Expectancy (average profit/loss per sell, fees included): $-11.81 over 3 sells
 
 ## Last 10 trades
 
 | Day | Coin | Bought (+) / sold (−) | Price | Why |
 |---|---|---|---|---|
+| 2026-11-08 | ETHUSD | $-134.79 | $2,124.05 | 0/5 trend votes |
+| 2026-11-08 | BTCUSD | $-37.40 | $74,737.90 | 3/5 trend votes |
 | 2026-11-01 | ETHUSD | $-38.66 | $2,272.35 | 3/5 trend votes |
 | 2026-10-09 | ETHUSD | $200.00 | $2,485.34 | 4/5 trend votes |
 | 2026-10-09 | BTCUSD | $200.00 | $82,559.40 | 4/5 trend votes |
