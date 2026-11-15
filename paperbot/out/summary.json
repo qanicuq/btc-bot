@@ -1,10 +1,10 @@
 {
- "day": "2026-11-13",
- "equity": 935.28,
- "drawdown": -0.0668,
+ "day": "2026-11-14",
+ "equity": 927.36,
+ "drawdown": -0.0747,
  "prices": {
-  "BTCUSD": 68235.9,
-  "ETHUSD": 1927.29
+  "BTCUSD": 64115.1,
+  "ETHUSD": 1768.03
  },
  "targets": {
   "BTCUSD": 0.3,
