@@ -1,6 +1,6 @@
 # Crypto paper bot (weekly trend)
 
-Paper money only. Prices through **2026-11-16** (daily close, UTC). Checks daily, trades only on Sunday's close if the trend votes changed. Runs free on GitHub Actions.
+Paper money only. Prices through **2026-11-17** (daily close, UTC). Checks daily, trades only on Sunday's close if the trend votes changed. Runs free on GitHub Actions.
 
 ![equity](out/equity.svg)
 
@@ -12,8 +12,8 @@ Paper money only. Prices through **2026-11-16** (daily close, UTC). Checks daily
 
 | Coin | Price | 100d | 150d | 200d | 250d | 12-month | Target in coin |
 |---|---|---|---|---|---|---|---|
-| BTCUSD | $64,810.60 | no | no | no | no | no | 0% of its half |
-| ETHUSD | $1,819.59 | no | no | no | no | no | 0% of its half |
+| BTCUSD | $64,877.00 | no | no | no | no | no | 0% of its half |
+| ETHUSD | $1,822.90 | no | no | no | no | no | 0% of its half |
 
 Expectancy (average profit/loss per sell, fees included): $-17.93 over 4 sells
 
